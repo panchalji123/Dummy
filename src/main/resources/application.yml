@@ -1,0 +1,14 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: Demo
+  datasource:
+    url: jdbc:postgresql://dpg-d1ekk8vgi27c73eob30g-a.oregon-postgres.render.com:5432/dbs_18wz
+    username: dbs_18wz_user
+    password: 0hh8LypT52y0cuI1bSONkTQLgr9ZVbTL
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update

@@ -2,7 +2,7 @@ server:
   port: 8081
 spring:
   application:
-    name: Demo
+    name: Dummy
   datasource:
     url: jdbc:postgresql://dpg-d1ekk8vgi27c73eob30g-a.oregon-postgres.render.com:5432/dbs_18wz
     username: dbs_18wz_user
